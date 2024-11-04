@@ -1,0 +1,17 @@
+*.idea
+*.DS_Store
+*.exe
+ivankadelegate
+ivankacontent
+ivankacontent_nsqbiao_data
+vendor
+conf/config.yaml
+ conf/*
+conf/ivankacontent.yaml
+ivankacontent.yaml
+
+*.exe
+*.rename
+
+prod.sh
+dump.rdb
