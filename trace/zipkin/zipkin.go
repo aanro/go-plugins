@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/aanro/micro/go-plugins/trace/zipkin/thrift/gen-go/zipkincore"
+	"github.com/aanro/go-plugins/trace/zipkin/thrift/gen-go/zipkincore"
 	"github.com/micro/go-micro/registry"
 	"github.com/micro/go-os/trace"
 

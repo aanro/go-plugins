@@ -1,4 +1,4 @@
-module github.com/aanro/micro/go-plugins
+module github.com/aanro/go-plugins
 
 go 1.23.2
 
@@ -40,16 +40,13 @@ require (
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/go-log/log v0.1.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang/glog v1.2.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
-	github.com/google/btree v1.1.3 // indirect
 	github.com/google/uuid v1.1.2 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/hashicorp/consul v1.20.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-immutable-radix v1.0.0 // indirect
 	github.com/hashicorp/go-rootcerts v1.0.2 // indirect
-	github.com/hashicorp/go-uuid v1.0.3 // indirect
 	github.com/hashicorp/golang-lru v0.5.0 // indirect
 	github.com/hashicorp/serf v0.10.1 // indirect
 	github.com/huandu/xstrings v1.3.0 // indirect
@@ -60,7 +57,6 @@ require (
 	github.com/miekg/dns v1.1.41 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
-	github.com/pascaldekloe/goe v0.1.1 // indirect
 	github.com/pborman/uuid v1.2.1 // indirect
 	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -76,16 +72,6 @@ require (
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
-
-replace gitlab.itingluo.com/backend/ivankasecret v0.0.0 => ../ivankasecret
-
-replace gitlab.itingluo.com/backend/ivankastd v0.0.0 => ../ivankastd
-
-replace gitlab.itingluo.com/backend/ivankaprotocol v0.0.0 => ../ivankaprotocol
-
-//replace github.com/aanro/micro/go-plugins v0.0.0 => ../micro/go-plugins
-//
-//replace github.com/aanro/micro/istio-plugins v0.0.0 => ../micro/istio-plugins
 
 replace github.com/micro/go-micro v1.18.0 => github.com/micro/go-micro v0.1.0
 
